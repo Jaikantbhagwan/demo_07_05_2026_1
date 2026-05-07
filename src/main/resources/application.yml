@@ -1,4 +1,9 @@
 server:
   port: 8080
 
-
+spring:
+  cloud:
+    azure:
+      keyvault:
+        secret:
+          endpoint: https://demo-keyvault-jai-2026.vault.azure.net/
